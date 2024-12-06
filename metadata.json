@@ -1,0 +1,8 @@
+{
+    "name": "UwUaddons",
+    "creator": "@Da_Minty",
+    "description": "uwu",
+    "version": "1.1.0",
+    "entry": "index.js",
+    "requires": ["axios", "BloomCore", "PogData", "Promisev2", "requestV2", "Vigilance"]
+  }
