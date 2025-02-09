@@ -312,7 +312,7 @@ registerWhen(onChatPacket(() => {
             if (downtimedemon != "") {
                 if (downtimereason == "") {downtimereason = "Unspecified"}
                 Client.showTitle("&cDowntime Needed!", "", 0, 75, 0)
-                ChatLib.command(`pc ${prefix2} ${downtimedemon} has requested downtime: ${downtimereason}`)
+                ChatLib.command(`pc ${prefix2} ${downtimedemon} has requested downtime`)
                 ChatLib.chat(`&r&9${line}\n${prefix} &f${downtimedemon} has requested downtime: ${downtimereason}\n&r&9${line}`)
             }
             if (Settings.carryMode) {
